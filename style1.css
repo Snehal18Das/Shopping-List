@@ -1,0 +1,150 @@
+*{
+	font-family: candara;
+	background-color: ghostwhite;
+}
+.edit
+{
+	color: gray;
+
+}
+.container
+{
+	box-sizing: border-box;
+	margin:40px auto;
+    max-width: 450px;
+	
+
+}
+header
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+header h1
+{
+	padding-left: 9px;
+	padding-top: 9px;
+	font-weight: 500;
+}
+
+
+#item-input
+{
+	width: 90%;
+	outline: none;
+	border: gray 1px solid;
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	height: 11px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.input-edit
+{
+	width: 90%;
+	outline: none;
+	border: gray 1px solid;
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	height: 11px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.btn
+{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding: 8px 20px;
+	outline: none;
+	border-radius: 5px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.btn:hover
+{
+	background-color:darkgrey ;
+	color: black;
+
+	cursor: pointer;
+}
+.green
+{
+	background-color: forestgreen;
+}
+.form-filter
+{
+	margin: 10px 0;
+	outline: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 90%;
+	border-bottom: 1px solid lightgray;
+	padding: 7px 10px;
+	font-size: 17px;
+	margin-top: 20px;
+	
+}
+
+#form-filter::placeholder
+{
+	color: black;
+	opacity: 0.8;
+	
+}
+
+.list
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-left: -40px;
+	margin-top: 20px;
+}
+
+.list li
+{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	padding: 11px 21px;
+	margin: 0 5px 20px;
+	border:1px solid lightgray;
+	border-radius: 5px;
+	font-weight: 595;
+	font-size: 17px;
+
+}
+li button
+{
+	border:none;
+	outline: none;
+	color: red;
+	font-weight: 600;
+}
+li button:hover
+{
+	cursor:pointer;
+}
+.clear
+{
+	width: 100%;
+	text-align: center;
+	outline: none;
+	border:1px lightgray solid;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.clear:hover
+{
+	background-color: lightgray;
+	cursor: pointer;
+	
+}
